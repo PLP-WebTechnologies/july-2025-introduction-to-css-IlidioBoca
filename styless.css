@@ -1,1 +1,79 @@
+/* ================== Global Styles ================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
 
+/* ================== Header ================== */
+.main-header {
+    background-color: #5f3439ef;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-bar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+/* ================== Cards (Box Model) ================== */
+.card {
+    background: rgba(150, 144, 144, 0.432);
+    border: 2px solid #ddd; /* Border */
+    margin: 20px;           /* Margin */
+    padding: 15px;          /* Padding */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ================== Button ================== */
+.btn {
+    display: inline-block;
+    background: #6d525d;
+    color: white;
+    padding: 10px 20px;  /* Padding = more clickable space */
+    border: 2px solid #9e85897a;
+    margin: 20px;        /* Margin */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background: #004466;
+}
+
+/* ================== Footer ================== */
+.main-footer {
+    background: #2c2d2e;
+    color: #eee;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.9rem;   /* slightly smaller text */
+    border-top: 2px solid #3a3737; /* subtle top border */
+}
+
+.main-footer a {
+    color: #4aa3ff;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    text-decoration: underline;
+}
+
+.main-footer p {
+    margin: 5px 0;  /* tighter spacing between lines */
+}
